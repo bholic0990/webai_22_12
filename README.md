@@ -13,4 +13,3 @@ git  commit -m "massage"
 git push origin main
 서버에 올리는 명령어
 
-ㅁㅇㄹㅇㄹ
