@@ -33,7 +33,7 @@ for i in list:
     data=time.strftime("%m" "%d",time.localtime(time.time()))
     # print(data)
     ws.append([data,city.text,weather.text,tem.text])
-    
+print()    
 
 wb.save('weather.xlsx')
 wb.close()
