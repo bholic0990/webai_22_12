@@ -3,12 +3,17 @@
 int main()
 {
     int arra[2][4]={{1,2,3,4},{5,6,7,8}};
+<<<<<<< HEAD
     int arrb[4][2]={ 0 };
+=======
+    // int arrb[4][2];
+>>>>>>> e9952cd91abdd171a57c34ec51253ecb8cbc5da5
 
     for(int i=0;i<sizeof(arra)/sizeof(arra[0]);i++)
     {
         for(int j=0;j<4;j++)
         {
+<<<<<<< HEAD
             // printf("arra[%d][%d]=%d",i,j,arra[i][j]);
             printf("%d",arra[i][j]);
         }
@@ -31,4 +36,13 @@ int main()
     // printf("%d %d",arrb[0][0],arrb[0][1]);
 
     return 0;
+=======
+            printf("arra[%d][%d]=%d",i,j,arra[i][j]);
+        }
+        printf("\n");
+    }
+    int *ptr=NULL;
+    // ptr=&arra[0][0];
+
+>>>>>>> e9952cd91abdd171a57c34ec51253ecb8cbc5da5
 }
